@@ -1,3 +1,3 @@
-import { ReactComponent as Cloud } from "./cloud1.svg";
+import { ReactComponent as Cloud1 } from "./cloud1.svg";
 
-export { Cloud };
+export { Cloud1 };

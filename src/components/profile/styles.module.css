@@ -3,17 +3,24 @@
   width: 100vw;
   background-color: #0a7af8;
   position: relative;
-  background-image: url("../../assets/vectors/bottomCloud.svg"), url("../../assets/vectors/clouds/cloud1.svg"),
+  background-image: url("../../assets/vectors/bottomCloud.svg"),
     url("../../assets/vectors/clouds/cloud1.svg"), url("../../assets/vectors/clouds/cloud5.svg"),
     url("../../assets/images/profileCharacter.png");
-  background-size: contain, 9%, 18%, 22%, 10%;
+  background-size: contain, 18%, 22%, 10%;
   background-repeat: no-repeat, no-repeat;
-  background-position: bottom, 50% 10%, 100% 0, 0 0, 5% 70%;
+  background-position: bottom, 100% 0, 0 0, 5% 70%;
   background-origin: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.cloud {
+  position: absolute;
+  width: 9%;
+  opacity: 0.6;
+  top: 5%;
+  left: 45%;
 }
 form {
   width: 90%;

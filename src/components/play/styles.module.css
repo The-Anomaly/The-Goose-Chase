@@ -1,0 +1,55 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #0a7af8;
+  position: relative;
+  background-image: url("../../assets/vectors/bottomCloud.svg"), url("../../assets/vectors/clouds/cloud1.svg"),
+    url("../../assets/vectors/clouds/cloud5.svg"), url("../../assets/images/playCharacter2.png");
+  background-size: contain, 18%, 22%, 9%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom, 100% 0, 0 0, 70% 27%;
+  background-origin: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cloud {
+  position: absolute;
+  width: 9%;
+  opacity: 0.6;
+  top: 5%;
+  left: 45%;
+}
+.char1 {
+  position: absolute;
+  left: 2%;
+  bottom: 5%;
+  width: 8%;
+}
+.btn {
+  font-size: 5rem;
+  letter-spacing: 3px;
+  -webkit-text-stroke-color: #098aee;
+  -webkit-text-stroke-width: 3.2px;
+  padding: 1.5rem 1rem;
+}
+.moreBtnWrap {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  position: absolute;
+  bottom: 18%;
+}
+.moreBtnWrap button {
+  font-family: "Luckiest Guy";
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 3.3rem;
+  letter-spacing: 1px;
+  -webkit-text-stroke-color: #098aee;
+  -webkit-text-stroke-width: 2px;
+  cursor: pointer;
+}

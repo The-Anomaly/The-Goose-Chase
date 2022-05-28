@@ -1,4 +1,4 @@
-import { Cinematics, Launch, Profile, Splash } from "components";
+import { Cinematics, Launch, Play, Profile, Splash } from "components";
 import React from "react";
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
       <Cinematics />
       <Splash />
       <Profile />
+      <Play />
     </main>
   );
 }

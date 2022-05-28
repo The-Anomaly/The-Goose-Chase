@@ -1,0 +1,54 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #098aee;
+  position: relative;
+  background-image: url("../../assets/vectors/bottomCloud.svg"),
+    url("../../assets/vectors/clouds/cloud1.svg"),
+    url("../../assets/vectors/clouds/cloud1.svg"),
+    url("../../assets/vectors/clouds/cloud1.svg"),
+    url("../../assets/vectors/clouds/cloud1.svg"),
+    url("../../assets/vectors/clouds/cloud1.svg"),
+    url("../../assets/vectors/clouds/cloud1.svg"),
+    url("../../assets/vectors/clouds/cloud2.svg"),
+    url("../../assets/vectors/clouds/cloud2.svg"),
+    url("../../assets/vectors/clouds/cloud3.svg"),
+    url("../../assets/vectors/clouds/cloud4.svg"),
+    url("../../assets/vectors/gems/redDiamond.svg"),
+    url("../../assets/vectors/gems/turquoiseStone.svg"),
+    url("../../assets/vectors/gems/dollarCoin.svg");
+  background-size: contain, 13%, 18%, 9%, 9%, 11%, 15%, 13%, 5%, 13%, 8%, auto, auto, auto;
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom, 18% 0, 1% 13%, 1% 60%, 8% 75%, 81% 75%, 78% 23%,
+    80% 4%, 34% 4%, 13% 29%, 100% 20%, 20% 68%, 69% 59%, 90% 82%;
+  background-origin: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.char1 {
+  left: 4%;
+  top: 25%;
+  position: absolute;
+  width: 11%;
+  min-width: 110px;
+}
+.char2 {
+  position: absolute;
+  right: 0;
+  top: 1rem;
+  width: 15%;
+  min-width: 160px;
+}
+.char3 {
+  width: 23%;
+  margin: 1rem auto 0;
+  display: block;
+  max-width: 300px;
+  height: auto;
+}
+.btn {
+  padding: 2rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}

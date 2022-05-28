@@ -1,3 +1,6 @@
 import { ReactComponent as NotiLogo } from "./logo.svg";
+import { ReactComponent as BottomCloud } from "./bottomCloud.svg";
 
-export { NotiLogo };
+
+export { NotiLogo, BottomCloud };
+export * from "./clouds"

@@ -1,10 +1,13 @@
-import React from 'react';
+import { Cinematics, Launch, Splash } from "components";
+import React from "react";
 
 function App() {
   return (
-    <div className="App">
-     The Goose Chase
-    </div>
+    <main className="App">
+      <Launch />
+      <Cinematics />
+      <Splash />
+    </main>
   );
 }
 

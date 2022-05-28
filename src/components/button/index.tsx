@@ -3,16 +3,16 @@ import styles from "./styles.module.css";
 
 interface ButtonProps {
   text: string;
-  action: () => void;
+  onClick: () => void;
   className: string;
 }
 
-const Button = ({ text, className, action }: ButtonProps) => {
+const Button = ({ text, className, onClick }: ButtonProps) => {
   return (
     <button
       onClick={(e) => {
         e.preventDefault();
-        action();
+        onClick();
       }}
       className={`${styles.btn} ${className}`}
     >

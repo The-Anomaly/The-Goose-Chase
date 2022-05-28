@@ -1,0 +1,61 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #0a7af8;
+  position: relative;
+  background-image: url("../../assets/vectors/bottomCloud.svg"), url("../../assets/vectors/clouds/cloud1.svg"),
+    url("../../assets/vectors/clouds/cloud1.svg"), url("../../assets/vectors/clouds/cloud5.svg"),
+    url("../../assets/images/profileCharacter.png");
+  background-size: contain, 9%, 18%, 22%, 10%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom, 50% 10%, 100% 0, 0 0, 5% 70%;
+  background-origin: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  width: 90%;
+  max-width: 600px;
+}
+.input {
+  width: 100%;
+  height: 80px;
+  border: 6px solid #fa6aff;
+  border-radius: 16px;
+  padding-left: 1.5rem;
+  font-size: 1.8rem;
+  font-family: "Luckiest Guy";
+  outline: none;
+  letter-spacing: 2px;
+}
+.input::placeholder {
+  color: rgba(33, 33, 33, 0.5);
+}
+.btn {
+  font-size: 2rem;
+  padding: 10px 2rem;
+  position: absolute;
+  left: 2%;
+  top: 6%;
+  letter-spacing: 3px;
+}
+.ttl {
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+  -webkit-text-stroke-color: #098aee;
+  -webkit-text-stroke-width: 2px;
+}
+.error {
+  border-color: #e43030;
+}
+.message {
+  -webkit-text-stroke-width: 1.7px;
+  -webkit-text-stroke-color: #e43030;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}

@@ -1,6 +1,8 @@
 *, *::after, *::before {
   box-sizing: border-box;
   transition: 0.3s;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -11,6 +13,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #fff;
+  font-family: "Luckiest Guy";
+  color: #fff;
+  font-weight: 400;
 }
 
 code {

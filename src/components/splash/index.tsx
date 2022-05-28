@@ -1,10 +1,4 @@
-import {
-  introImg,
-  splashCharacter1,
-  splashCharacter2,
-  splashCharacter3,
-} from "assets";
-import { Button } from "components/button";
+import { splashCharacter1, splashCharacter2, splashCharacter3 } from "assets";
 import styles from "./styles.module.css";
 
 const Splash = () => {
@@ -13,7 +7,7 @@ const Splash = () => {
       <img className={styles.char1} src={splashCharacter1} alt="" />
       <img className={styles.char2} src={splashCharacter2} alt="" />
       <img className={styles.char3} src={splashCharacter3} alt="" />
-      <Button text="Goose Chase" action={() => {}} className={styles.btn} />
+      <h1 className={styles.ttl}>Goose Chase</h1>
     </div>
   );
 };

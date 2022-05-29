@@ -3,25 +3,15 @@
   width: 100vw;
   background-color: #0a7af8;
   position: relative;
-  background-image: url("../../assets/vectors/bottomCloud.svg"),
-    url("../../assets/vectors/clouds/cloud1.svg"),
-    url("../../assets/vectors/clouds/cloud1.svg"),
-    url("../../assets/vectors/clouds/cloud1.svg"),
-    url("../../assets/vectors/clouds/cloud1.svg"),
-    url("../../assets/vectors/clouds/cloud1.svg"),
-    url("../../assets/vectors/clouds/cloud1.svg"),
-    url("../../assets/vectors/clouds/cloud2.svg"),
-    url("../../assets/vectors/clouds/cloud2.svg"),
-    url("../../assets/vectors/clouds/cloud3.svg"),
-    url("../../assets/vectors/clouds/cloud4.svg"),
-    url("../../assets/vectors/gems/redDiamond.svg"),
-    url("../../assets/vectors/gems/turquoiseStone.svg"),
-    url("../../assets/vectors/gems/dollarCoin.svg");
-  background-size: contain, 13%, 18%, 9%, 9%, 11%, 15%, 13%, 5%, 13%, 8%, 3%,
-    3%, 2.5%;
+  background-image: url("../../assets/vectors/bottomCloud.svg"), url("../../assets/vectors/clouds/cloud1.svg"),
+    url("../../assets/vectors/clouds/cloud1.svg"), url("../../assets/vectors/clouds/cloud1.svg"),
+    url("../../assets/vectors/clouds/cloud4.svg"), url("../../assets/vectors/clouds/cloud1Fade.svg"),
+    url("../../assets/vectors/clouds/cloud3Fade.svg"), url("../../assets/vectors/gems/redDiamond.svg"),
+    url("../../assets/vectors/gems/turquoiseStone.svg"), url("../../assets/vectors/gems/dollarCoin.svg"),
+    url("../../assets/vectors/clouds/cloud6.svg");
+  background-size: contain, 15%, 9%, 6%, 8%, 5%, 8%, 3%, 3%, 2.5%, 17%;
   background-repeat: no-repeat, no-repeat;
-  background-position: bottom, 18% 0, 1% 13%, 1% 60%, 8% 75%, 81% 75%, 78% 23%,
-    80% 4%, 34% 4%, 13% 29%, 100% 20%, 16% 66%, 69% 59%, 90% 82%;
+  background-position: bottom, 3% 13%, 76% 23%, 92% 33%, 100% 10%, 64% 14%, 31% 29%, 16% 66%, 69% 59%, 90% 82%, 29% 7%;
   background-origin: border-box;
   display: flex;
   flex-direction: column;
@@ -36,10 +26,10 @@
 }
 .char2 {
   position: absolute;
-  right: 0;
-  top: 1rem;
-  width: 15%;
-  min-width: 160px;
+  right: 5%;
+  top: 10px;
+  width: 11%;
+  min-width: 140px;
 }
 .char3 {
   width: 23%;

@@ -17,3 +17,4 @@ export {
   playCharacter1,
   playCharacter2,
 };
+export * from "./beanies"

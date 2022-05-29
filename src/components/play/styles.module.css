@@ -4,10 +4,11 @@
   background-color: #0a7af8;
   position: relative;
   background-image: url("../../assets/vectors/bottomCloud.svg"), url("../../assets/vectors/clouds/cloud1.svg"),
-    url("../../assets/vectors/clouds/cloud5.svg"), url("../../assets/images/playCharacter2.png");
-  background-size: contain, 18%, 22%, 9%;
+    url("../../assets/vectors/clouds/cloud5.svg"), url("../../assets/images/playCharacter2.png"),
+    url("../../assets/vectors/clouds/cloud1Fade.svg");
+  background-size: contain, 18%, 22%, 9%, 9%;
   background-repeat: no-repeat, no-repeat;
-  background-position: bottom, 100% 0, 0 0, 70% 27%;
+  background-position: bottom, 100% 0, 0 0, 70% 27%, 50% 13%;
   background-origin: border-box;
   display: flex;
   flex-direction: column;

@@ -39,6 +39,7 @@ const Credit = () => {
       image: anomalyBeanie,
       name: "The ANOMALY",
       role: "FRONT-END DEV",
+      discord: "theanomaly#1485",
       twitterHandle: "the_oddbod",
       color: "green",
     },
